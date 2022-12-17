@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #0a0a0a;
+}
+.header{
+    background-color: #d1e76e;
+    padding: 28px 0 29px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+    font-style: 24px;
+    line-height: 29px;
+}
+
+.menu-item{
+    padding-right: 30px;
+}
+.headline{
+    background-color: #f4fae9;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 0 0 40px;
+    color: rgb(18, 104, 119);
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 77ph;
+}
+.headline-img{
+    margin-bottom: 25px;
+}
+.headline-btn{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(18, 104, 119);
+    padding: 22px 140px 19px;
+    border-radius: 30px;
+}
+.info{
+    padding: 90px 0 150px;
+    background-color: #f4fae9;
+}
+.info-title,
+.portfolio-title{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(18, 104, 119);
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+background-color: rgb(229, 241, 209);
+}
+.info-info{
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 241, 209);
+}
+.info-text p{
+    max-width: 560px;
+    margin: 0 0 20px;
+    font-size: 21px;
+    background-color: rgb(229, 241, 209);
+}
+.info-text b{
+    max-width: 580px;
+    margin: 0 0 5px;
+    font-size: 21px;
+    display: block;
+}
+.images-info{
+   margin-left: 190px; 
+}
+.portfolio-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.port-item img{
+    margin-bottom: 20px;
+    margin: 0 0 10px;
+}
+.portfolio{
+    background-color: #f4fae9;
+}
+.footer{
+background-color: #d1e76e;
+}
+.footer-link{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.footer-inner{
+color: #0a0a0a;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px 0;
+}
